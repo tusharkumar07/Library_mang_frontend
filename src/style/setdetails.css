@@ -1,0 +1,88 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.container p{
+    color: 'black';
+    margin-right:10px ;
+}
+.base{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    height: 5em;
+    padding: 1em 3em 1em 3em;
+    background-color: rgb(235, 100, 50);
+}
+.base h5{
+    background-color: rgb(232, 109, 65);
+    color: white;
+}
+.scrollBox{
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.back{
+    position: absolute;
+    right: 1em;
+    top: 0.5em;
+    width: 5em;
+}
+.today{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1.5em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.currentDate{
+    margin-right: 2em;
+   
+}
+.currentTime{
+    background-color: #1B4242; 
+    padding: 7px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.margingT{
+    margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+    .base{
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    height: 5em;
+    padding: 1rem 1rem;
+    background-color: rgb(235, 100, 50);
+
+    }
+    .base h5{
+        margin-right: 2.5rem;
+    }
+    .scrollBox{
+        overflow-x: scroll;
+        padding-bottom: 5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .today h4{
+        font-size: medium;
+    }
+  }
+  

@@ -1,0 +1,121 @@
+form input{
+    margin: 1rem 1rem;
+    width: 20em;
+    padding:0.4em 0.5em;
+    border-radius: 2px;
+    border: none;  
+}
+input:focus {
+    outline: #6495ed;
+    border-color: #6495ed;
+  }
+
+  input[type="email"]:invalid {
+    border-color: red;
+  }
+  
+  input[type="email"]:invalid + span {
+    display: block;
+    color: red;
+  }
+  .FormCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.allData{
+   overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.IssueBooks{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    border-radius: 10px;
+    margin: 2rem 0rem;
+    padding: 2rem 2rem;
+    width: 40em;
+    height: auto
+}
+
+.main2{
+  border-radius: 10px;
+  margin: 2rem 0rem;
+  padding: 1rem 1rem ;
+  background-color: 	#6495ed;
+  width: 40em;
+  height: auto
+}
+.formInside{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+p{
+    font-weight: 500;
+    color: white;
+    margin: 0.5em 0em 0em 0em;
+}
+.btVerify{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;  
+}
+/* form button{
+    margin-left: 13em;
+} */
+
+@media (max-width: 768px) {
+  .main2{
+    border-radius: 10px;
+    margin: 2rem 0rem;
+    padding: 1rem 1rem;
+    background-color: 	#6495ed;
+    width: 20rem;
+    height: auto
+  }
+  .FormCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+      border-radius: 10px;
+      margin: 2rem 1rem;
+      padding: 2rem 2rem;
+      width: 40em;
+      height: auto
+  }
+  form input{
+    margin:1em 1em;
+    width: 10rem;
+    padding:0.4em 0.5em;
+    border-radius: 2px;
+    border: none;  
+}
+  .btVerify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;  
+  }
+}
+
+
