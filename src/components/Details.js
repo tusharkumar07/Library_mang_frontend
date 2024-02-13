@@ -11,7 +11,7 @@ const Details = () => {
   const navigate = useNavigate();
   useEffect(() => {
     try {
-      axios.get("http://localhost:5000/details").then((res) => {
+      axios.get("https://library-mang-backend.onrender.com/details").then((res) => {
         setDetails(res.data);
         // console.log(res.data);
       });
@@ -21,7 +21,7 @@ const Details = () => {
   }, [clk]);
   const removeEntry = (index) => {
     axios
-      .post("http://localhost:5000/removeData", { indexData: index })
+      .post("https://library-mang-backend.onrender.com/removeData", { indexData: index })
       .then((res) => {
         console.log(res.data);
         if (res.data === true) {
@@ -48,7 +48,7 @@ const Details = () => {
       email:emailInfo,
       date:dateInfo
     }
-    axios.post("http://localhost:5000/sendMail",data).then((res)=>{
+    axios.post("https://library-mang-backend.onrender.com/sendMail",data).then((res)=>{
       if(res.data===true){
         console.log("Sent mail");
         swal({

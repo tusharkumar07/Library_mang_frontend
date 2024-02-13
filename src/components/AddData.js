@@ -50,7 +50,7 @@ const AddData = () => {
 
         // If all fields are filled, proceed with the data submission
         console.log(name, email, bookId, rollNo, startDate, lastDate);
-        axios.post("http://localhost:5000/entry", {
+        axios.post("https://library-mang-backend.onrender.com/entry", {
             iname: name,
             iemail: email,
             ibookId: bookId,

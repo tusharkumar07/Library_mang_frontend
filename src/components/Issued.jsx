@@ -14,7 +14,7 @@ const Issued = () => {
     }, []);
 
     const getInfo = () => {
-        axios.get("http://localhost:5000/apiCse")
+        axios.get("https://library-mang-backend.onrender.com/apiCse")
             .then((res) => {
                 setData(res.data);
             })
@@ -24,7 +24,7 @@ const Issued = () => {
     }
 
     const getIssuedBooks = () => {
-        axios.get("http://localhost:5000/details")
+        axios.get("https://library-mang-backend.onrender.com/details")
             .then((res) => {
                 setDetail(res.data);
             })
@@ -34,7 +34,7 @@ const Issued = () => {
     }
 
     const updateBookQuantity = (bookId) => {
-        axios.put(`http://localhost:5000/apiCse/${bookId}`)
+        axios.put(`https://library-mang-backend.onrender.com/apiCse/${bookId}`)
             .then(() => {
                 setData(prevData => {
                     return prevData.map(item => {

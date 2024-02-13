@@ -13,7 +13,7 @@ const Availability = () => {
     }, []);
 
     const getInfo = () => {
-        axios.get("http://localhost:5000/apiCse")
+        axios.get("https://library-mang-backend.onrender.com/apiCse")
             .then((res) => {
                 setData(res.data);
             })
@@ -23,7 +23,7 @@ const Availability = () => {
     }
 
     const getIssuedBooks = () => {
-        axios.get("http://localhost:5000/details")
+        axios.get("hhttps://library-mang-backend.onrender.com/details")
             .then((res) => {
                 setDetail(res.data);
             })
