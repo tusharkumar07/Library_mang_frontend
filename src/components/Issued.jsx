@@ -3,6 +3,7 @@ import Header from "./Header";
 import axios from "axios";
 import '../style/departments.css';
 import Footer from "./Footer";
+import HomeRules from "./HomeRules";
 
 const Issued = () => {
     const [data, setData] = useState([]);
@@ -78,6 +79,10 @@ const Issued = () => {
                     }
                 })}
             </div>
+            <div style={{paddingTop:"3rem"}}>
+            <HomeRules />
+            </div>
+            
             <Footer />
         </div>
     );

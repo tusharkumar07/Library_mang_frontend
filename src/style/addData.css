@@ -31,6 +31,7 @@ input:focus {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    padding-top: 6rem;
 }
 .IssueBooks{
     text-align: center;
@@ -51,7 +52,7 @@ input:focus {
 .main2{
   border-radius: 10px;
   margin: 2rem 0rem;
-  padding: 1rem 1rem ;
+  padding: 2rem 1rem ;
   background-color: 	#6495ed;
   width: 40em;
   height: auto

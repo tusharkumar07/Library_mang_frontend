@@ -89,11 +89,8 @@ const AddData = () => {
                             <div className='btVerify'>
                             <button className='btn px-4 text-white ' type="submit" style={{ backgroundColor: "#1B4242",border:"none", }}>Verify</button>
                             </div>
-                            
                         </form>
-                        
                     </div>
-                    
                 </div>
                 <Footer />
             </>
