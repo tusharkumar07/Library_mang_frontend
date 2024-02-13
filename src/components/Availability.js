@@ -51,7 +51,7 @@ const Availability = () => {
             <div className='CSE' style={{backgroundColor:"#9EC8B9"}}>
                 {/* Conditionally render Skeleton component while loading */}
                 {loading ? (
-                    <div className="" style={{display:"flex",flexDirection:"row",justifyContent:"space-between",paddingBottom:"5rem",paddingTop:"5rem"}}>
+                    <div className="features">
         <HomeFeatures Branch="Loading ..." Tittle="Data is loading from Backend" img={imgCse} />
         <HomeFeatures Branch="Loading ..." Tittle="Data is loading from Backend" img={imgEce}  />
         <HomeFeatures Branch="Loading ..." Tittle="Data is loading from Backend" img={imgIt}  />

@@ -56,3 +56,21 @@
     justify-content: space-between;
     margin: 1em 2em;
 }
+.features{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 1rem;
+    column-gap: 2rem;
+}
+@media (max-width: 768px){
+    .features{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 2rem 1rem;
+        row-gap: 2rem;
+    }
+}

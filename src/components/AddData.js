@@ -78,7 +78,7 @@ const AddData = () => {
         return (
             <>
                 <Header />
-                <div className='allData' style={{ backgroundColor: "#9EC8B9" }}>
+                <div className='allData' style={{ backgroundColor: "#9EC8B9"}}>
                     <div className='main2' style={{ backgroundColor: "#5C8374" }}>
                         <h2 className='IssueBooks' style={{ color: "white" }}>Only Admin Can Access !</h2>
                         <form onSubmit={handleLogin}>
